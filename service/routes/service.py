@@ -4,7 +4,6 @@ from cerver.http import HTTP_STATUS_OK
 from cerver.http import http_response_json_msg_send
 from cerver.http import http_response_json_key_value_send
 
-import service.ermiry as ermiry
 import runtime
 import version
 
