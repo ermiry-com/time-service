@@ -3,7 +3,7 @@ from cerver.utils import LOG_TYPE_NONE, cerver_log_both
 ERMIRY_VERSION = "0.1"
 ERMIRY_VERSION_NAME = "Version 0.1"
 ERMIRY_VERSION_DATE = "24/05/2022"
-ERMIRY_VERSION_TIME = "14:10 CST"
+ERMIRY_VERSION_TIME = "23:02 CST"
 ERMIRY_VERSION_AUTHOR = "Erick Salas"
 
 service_version = {
