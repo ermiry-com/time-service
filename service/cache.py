@@ -161,6 +161,13 @@ def ermiry_cache_ts_range (ts_name: str, start: int, end: int):
 
 	return result
 
+def ermiry_cache_ts_add (ts_name: str, value: int):
+	try:
+		redis_client.ts ().add (ts_name, "*", value)
+	except:
+		traceback.print_exc ()
+		cerver_log_error (b"Failed to increment timeseries!")
+
 def ermiry_cache_ts_incrby (ts_name: str, value: int):
 	try:
 		redis_client.ts ().incrby (ts_name, value)
